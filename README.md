@@ -45,4 +45,8 @@ drwxr-xr-x 6 ryan ryan   4096 Sep 23 23:17 pico-sdk/
 drwxr-xr-x 3 ryan ryan   4096 Sep 23 23:18 pioasm/
 
 /build$ cp multi.uf2 /media/user/RPI-RP2/
+
+/build$ arm-linux-gnueabi-objdump -d -S ./multi.elf > multi.lst
+/build$ cp multi.lst ../
+
 ```
