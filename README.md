@@ -18,7 +18,11 @@ $ cd pico-dual-core/
 
 # import pico sdk
 $ cp ~/workspace_arm/pico-sdk/external/pico_sdk_import.cmake ./
-$ export PICO_SDK_PATH=~/workspace_arm/pico-sdk
+
+# cmake presets
+$ export PICO_SDK_PATH=~/workspace_pico/pico-sdk
+$ export PICO_TOOLCHAIN_PATH=/c/Program\ Files\ \(x86\)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.2\ mpacbti-bet1/bin
+$ export PICO_PLATFORM=rp2040
 
 # Build
 $ mkdir build
